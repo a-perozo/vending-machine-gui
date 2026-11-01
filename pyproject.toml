@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vending-machine"
+version = "0.1.0"
+requires-python = ">=3.14.8"
+requirements = [
+    "pygame-ce>=2.5.8"
+]
+
+
